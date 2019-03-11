@@ -56,17 +56,6 @@ public class Classroom {
         students = removedStudent;
     }
 
-//    public int findStudent(String firstName, String lastName){
-//        int index = 0;
-//        for (int i = 0; i < students.length; i++) {
-//            if(students[i].getFirstName().equals(firstName)){
-//                if(students[i].getLastName().equals(lastName)){
-//                    index=i;
-//                }
-//            }
-//        }
-//        return index;
-//    }
 
     public Student[] getStudentByScore(){
         Arrays.sort(students);
@@ -110,9 +99,7 @@ public class Classroom {
         }
 
     }
-    //get average
-    //sort highest
-    //
+
 
 
 
